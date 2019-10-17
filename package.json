@@ -1,0 +1,23 @@
+{
+  "name": "Algorithm-in-JS",
+  "version": "1.0.0",
+  "description": "Let's hack LeetCode/HackerRank in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metrue/Algorithm-in-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metrue/Algorithm-in-JS/issues"
+  },
+  "homepage": "https://github.com/metrue/Algorithm-in-JS#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
