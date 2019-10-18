@@ -1,7 +1,7 @@
 const Heap = require('./heap')
 
 describe('heap', () => {
-  test.skip('min heap', () => {
+  test('min heap', () => {
     const fn = (a, b) => {
       return a < b
     }

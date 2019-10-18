@@ -13,6 +13,10 @@ class Heap {
     return this.list
   }
 
+  top() {
+    return this.list[0]
+  }
+
   push(val) {
     this.list.push(val)
 
