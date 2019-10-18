@@ -1,7 +1,7 @@
 name: ci
 on: [push, pull_request]
 jobs:
-  build-chrome-extension:
+  CI:
     runs-on: ubuntu-latest
     strategy:
       matrix:
