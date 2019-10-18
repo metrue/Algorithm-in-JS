@@ -4,7 +4,7 @@
   "description": "Let's hack LeetCode/HackerRank in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
