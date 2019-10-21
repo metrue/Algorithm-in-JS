@@ -1,2 +1,3 @@
-# Algorithm-in-JS-
+# Algorithm-in-JS
+
 Let's hack LeetCode/HackerRank in JavaScript
