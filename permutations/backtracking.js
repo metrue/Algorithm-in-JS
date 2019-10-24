@@ -1,12 +1,12 @@
 const permute = function(nums) {
   const res = []
   const path = []
-  const start = 0
-  backtracking(nums, start, path, res)
+  backtracking(nums, path, res)
+  exchange(nums, 0, res)
   return res
 }
 
-const backtracking = (nums, start, path, res) => {
+const backtracking = (nums, path, res) => {
   if (path.length === nums.length) {
     res.push(path)
     return
@@ -14,7 +14,7 @@ const backtracking = (nums, start, path, res) => {
 
   for (let i = 0; i < nums.length; i++) {
     if (path.indexOf(nums[i]) === -1) {
-      backtracking(nums, start+1, [...path, nums[i]], res)
+      backtracking(nums, [...path, nums[i]], res)
     }
   }
 }
