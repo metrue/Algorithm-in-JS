@@ -1,3 +1,4 @@
+// TODO it's not that dictionary
 const permute = function(nums) {
   const res = []
   const path = []
@@ -15,5 +16,3 @@ const dict_permute = (nums, path, res) => {
     dict_permute([...nums.slice(0, i), ...nums.slice(i+1)], [...path, nums[i]], res)
   }
 }
-
-console.log(permute([1,2, 3]))
