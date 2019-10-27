@@ -1,5 +1,6 @@
 const Node = require('../common/tree/binary_tree/node')
 const bfs = require('./bfs')
+const recursion = require('./recursion')
 
 const n0 = new Node(0)
 const n1 = new Node(1)
@@ -14,4 +15,9 @@ n2.left = n4
 test('bfs', () => {
   expect(bfs(n0, 1, 2)).toBe(false)
   expect(bfs(n0, 3, 4)).toBe(true)
+})
+
+test('recursion', () => {
+  expect(recursion(n0, 1, 2)).toBe(false)
+  expect(recursion(n0, 3, 4)).toBe(true)
 })
