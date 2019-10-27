@@ -1,4 +1,4 @@
-var isCousins = function(root, x, y) {
+const isCousins = (root, x, y) => {
   if (!root) {
     return false
   }
