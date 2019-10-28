@@ -4,7 +4,7 @@ const solution = (arr) => {
   }
 
   const records = {}
-  for (const log of arr) {
+  for (const log of arr) { // O(n)
     const user = log[0]
     const timestamp = log[1]
     const website = log[2]
@@ -15,7 +15,7 @@ const solution = (arr) => {
   }
 
   // sort by time stamp
-  for (const user of Object.keys(records)) {
+  for (const user of Object.keys(records)) { // O(k)
     records[user].sort((a, b) => {
       if (a.timestamp > b.timestamp) {
         return 1
@@ -28,7 +28,7 @@ const solution = (arr) => {
   }
 
   const seqs = {}
-  for (const user of Object.keys(records)) {
+  for (const user of Object.keys(records)) {  // O(n)
     const paths = records[user]
     for (let i = 0; i < paths.length; i++) {
       for (let j = i + 1; j < paths.length; j++)  {
@@ -49,16 +49,16 @@ const solution = (arr) => {
     paths.push({ path: k, users: seqs[k] })
   }
 
-  paths.sort((a, b) => {
+  paths.sort((a, b) => {  // O(mlogm)
     if (a.users.length < b.users.length) {
       return 1
     } else if (a.users.length > b.users.length) {
       return -1
     } else {
-      if (a.path < b.path) {
-        return -1
-      } else if (a.path > b.path) {
+      if (a.path > b.path) {
         return 1
+      } else if (a.path < b.path) {
+        return -1
       }
       return 0
     }
