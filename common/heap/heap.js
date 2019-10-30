@@ -5,6 +5,10 @@ class Heap {
     this.compareFn = compareFn
   }
 
+  size() {
+    return this.list.length
+  }
+
   empty() {
     return this.list.length === 0
   }
