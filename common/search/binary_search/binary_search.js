@@ -15,7 +15,7 @@ const binarySearch = (list, target, compareFn = defaultCompareFn) => {
     const mid = Math.floor((start + end) / 2)
     const compare = compareFn(list[mid], target)
     if (compare === 1) {
-      end = mid
+      end = mid - 1
     } else if (compare === -1) {
       start = mid + 1
     } else {
