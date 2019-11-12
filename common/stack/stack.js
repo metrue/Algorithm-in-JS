@@ -15,6 +15,10 @@ class Stack {
     return this.list[this.list.length - 1]
   }
 
+  top() {
+    return this.list[this.list.length - 1]
+  }
+
   size() {
     return this.list.length
   }
