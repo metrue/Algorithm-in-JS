@@ -24,6 +24,10 @@ class Queue {
   peek() {
     return this.list[0]
   }
+
+  top() {
+    return this.list[0]
+  }
 }
 
 module.exports = Queue

@@ -34,7 +34,6 @@ const calculate = (input) => {
       const valStack = new Stack()
       while (true && stack.size() > 0) {
         const str = stack.pop()
-        console.log("got ", str)
         if (str !== '(') {
           if (isOperator(str)) {
             opStack.push(str)
@@ -46,9 +45,7 @@ const calculate = (input) => {
         }
       }
       const curRes = calculateExpressionStack(opStack, valStack)
-      console.log('++++', curRes)
       stack.push(curRes)
-      // pop and calculate
     } else {
       cur += c
     }
