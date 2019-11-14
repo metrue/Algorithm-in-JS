@@ -1,3 +1,8 @@
-# Algorithm-in-JS
+# Solve Algorithm in JS
 
-Let's hack LeetCode/HackerRank in JavaScript
+| Number        |         Title |     Difficulty |          Status |
+| ------------- |:-------------:|:--------------:| :--------------:|
+| 53            | Maximum Subarray| Easy         |  * |
+| 122           | Best Time to Buy and Sell Stock II| Easy, Medium, and Hard         |  * |
+| 241           | Different Ways to Add Parentheses|  Medium | * |
+| 545            | Boundary of Binary Tree | Medium         |  * |
