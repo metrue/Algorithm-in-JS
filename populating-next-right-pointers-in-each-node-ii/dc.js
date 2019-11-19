@@ -1,6 +1,6 @@
 const Node = require('../common/tree/binary_tree/node')
 
-const fnext = (node) => {
+const next = (node) => {
   if (!node) {
     return node
   }
@@ -11,7 +11,7 @@ const fnext = (node) => {
   if (node.right) {
     return node.right
   }
-  return fnext(node.next)
+  return next(node.next)
 }
 
 const connect = (root) => {
@@ -22,12 +22,12 @@ const connect = (root) => {
     if (root.right) {
       root.left.next = root.right
     } else {
-      root.left.next = fnext(root.next)
+      root.left.next = next(root.next)
     }
   }
 
   if (root.right) {
-      root.right.next = fnext(root.next)
+      root.right.next = next(root.next)
   }
 
   connect(root.right)
