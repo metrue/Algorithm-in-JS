@@ -13,4 +13,5 @@
 | 113           | Path Sum II                               | Medium  | ?   | DFS |   |
 | 437           | Path Sum III                              | Easy    | *   | DFS, DC | |
 | 114           | Flatten Binary Tree to Linked List        | Medium  | *   | DC, DFS | |
-| 116           | Populating Next Right Pointers in Each Node | Medium | ?  | DC, Queue | |
+| 116           | Populating Next Right Pointers in Each Node | Medium | ?*  | DC, Queue | |
+| 117           | Populating Next Right Pointers in Each Node ii | Medium | ?  | DC, Queue | |
