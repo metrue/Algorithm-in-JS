@@ -15,3 +15,5 @@
 | 114           | Flatten Binary Tree to Linked List        | Medium  | *   | DC, DFS | |
 | 116           | Populating Next Right Pointers in Each Node | Medium | ?*  | DC, Queue | |
 | 117           | Populating Next Right Pointers in Each Node ii | Medium | ?  | DC, Queue | |
+| 5             | Longest Palindromic Substring | Medium | * | DP ||
+| 11            | Container With Most Water     | Medium | * | Two Point | |
