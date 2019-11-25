@@ -17,3 +17,4 @@
 | 117           | Populating Next Right Pointers in Each Node ii | Medium | ?  | DC, Queue | |
 | 5             | Longest Palindromic Substring | Medium | * | DP ||
 | 11            | Container With Most Water     | Medium | * | Two Point | |
+| 6             | ZigZag Conversion             | Medium | ? | String ||
