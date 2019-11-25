@@ -18,3 +18,6 @@
 | 5             | Longest Palindromic Substring | Medium | * | DP ||
 | 11            | Container With Most Water     | Medium | * | Two Point | |
 | 6             | ZigZag Conversion             | Medium | ? | String ||
+| 1             | 2Sum                          | Easy   | ? | Hash Table, Two Pointers | |
+| 15            | 3Sum                          | Medium | ? | Two Pointers | |
+| 18            | 4Sum                          | Medium | ? | Two Pointers, Hash Table | |
