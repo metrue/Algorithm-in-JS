@@ -23,3 +23,4 @@
 | 18            | 4Sum                          | Medium | ? | Two Pointers, Hash Table | |
 | 29            | Divide Two Integers           | Medium | * | Binary Search |  |
 | 415           | Add Strings                   | Medium | ? | String | |
+| 43            | Multiply Strings              | Medium | * | String | |
