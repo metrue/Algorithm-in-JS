@@ -21,3 +21,5 @@
 | 1             | 2Sum                          | Easy   | ? | Hash Table, Two Pointers | |
 | 15            | 3Sum                          | Medium | ? | Two Pointers | |
 | 18            | 4Sum                          | Medium | ? | Two Pointers, Hash Table | |
+| 29            | Divide Two Integers           | Medium | * | Binary Search |  |
+| 415           | Add Strings                   | Medium | ? | String | |
