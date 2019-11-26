@@ -24,3 +24,6 @@
 | 29            | Divide Two Integers           | Medium | * | Binary Search |  |
 | 415           | Add Strings                   | Medium | ? | String | |
 | 43            | Multiply Strings              | Medium | * | String | |
+| 2             | Add Two Numbers               | Medium | ? | LinkedList | |
+| 48            | Rotate Image                  | Medium | * | Array | |
+| 54            | Spiral Matrix                 | Medium | * | Array | |
