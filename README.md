@@ -27,3 +27,5 @@
 | 2             | Add Two Numbers               | Medium | ? | LinkedList | |
 | 48            | Rotate Image                  | Medium | * | Array | |
 | 54            | Spiral Matrix                 | Medium | * | Array | |
+| 56            | Merge Intervals               | Medium | ? | Array | |
+| 60            | Permutation Sequence          | Medium | ? | Backtracking | |
