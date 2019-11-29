@@ -29,3 +29,5 @@
 | 54            | Spiral Matrix                 | Medium | * | Array | |
 | 56            | Merge Intervals               | Medium | ? | Array | |
 | 60            | Permutation Sequence          | Medium | ? | Backtracking | |
+| 61            | Rotate List                   | Medium | ? | Two Pointers | |
+| 73            | Set Matrix Zeroes             | Medium | ? | Array |
