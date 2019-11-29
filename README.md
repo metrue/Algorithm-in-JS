@@ -27,7 +27,11 @@
 | 2             | Add Two Numbers               | Medium | ? | LinkedList | |
 | 48            | Rotate Image                  | Medium | * | Array | |
 | 54            | Spiral Matrix                 | Medium | * | Array | |
+| 59            | Spiral Matrix II              | Medium | * | Array | |
 | 56            | Merge Intervals               | Medium | ? | Array | |
 | 60            | Permutation Sequence          | Medium | ? | Backtracking | |
 | 61            | Rotate List                   | Medium | ? | Two Pointers | |
-| 73            | Set Matrix Zeroes             | Medium | ? | Array |
+| 73            | Set Matrix Zeroes             | Medium | ? | Array | |
+| 236           | Lowest Common Ancestor of a Binary Tree | Medium | ? | Tree | |
+| 124           | Binary Tree Maximum Path Sum  | Medium | * | Tree,DFS  ||
+| 332           | Reconstruct Itinerary         | Medium | * | Tree,DFS ||
