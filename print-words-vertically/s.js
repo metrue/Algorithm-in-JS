@@ -13,10 +13,7 @@ const printVertically = (s) => {
     }
   }
   for (let i = 0; i < res.length; i++) {
-    res[i] = res[i].replace(/[\s\uFEFF\xA0]+$/g, '')
+    res[i] = res[i].replace(/\s+$/g, '')
   }
   return res
 }
-
-console.log(printVertically('TO BE OR NOT TO BE'))
-console.log(printVertically('CONTEST IS COMING'))

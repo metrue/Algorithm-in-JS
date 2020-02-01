@@ -7,16 +7,11 @@ const removeLeafNodes = (root, target) => {
   }
   const dummy = { left: root }
   dfs(dummy, target, [])
-  console.log(dummy)
-  // dfs(dummy, target, [])
   return dummy.left
 }
 
 const dfs = (root, target, path) => {
   if (!root.left && !root.right && root.val === target) {
-    // if (path.length === 0) {
-    //   root = null
-    // }
     let cur = root
     while (path.length > 0) {
       const parent = path[path.length - 1]
