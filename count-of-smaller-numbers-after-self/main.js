@@ -81,25 +81,28 @@ const countSmallerInRightSide = (nums) => {
     let count = 0;
     while (leftIndex < left.length && rightIndex < right.length) {
       if (left[leftIndex].num <= right[rightIndex].num) {
-        console.warn("set -->", count);
         left[leftIndex].count += count;
         sorted.push(left[leftIndex]);
         leftIndex++;
       } else {
         count++;
-        console.warn("add -->", count);
         sorted.push(right[rightIndex]);
         rightIndex++;
       }
     }
-    if (leftIndex < left.length) {
+
+    while (leftIndex < left.length) {
       // TODO: to understand this part
       left[leftIndex].count += count;
-      sorted.push(...left.slice(leftIndex));
+      sorted.push(left[leftIndex]);
+      leftIndex++;
     }
-    if (rightIndex < right.length) {
-      sorted.push(...right.slice(rightIndex));
+
+    while (rightIndex < right.length) {
+      sorted.push(right[rightIndex]);
+      rightIndex++;
     }
+
     return sorted;
   };
 
@@ -116,11 +119,11 @@ const countSmallerInRightSide = (nums) => {
   const numsWithIndex = nums.map((num, index) => ({ num, index, count: 0 }));
   const counts = Array(nums.length).fill(0);
   const counted = divide(numsWithIndex);
-  console.warn(counted);
+
   for (const item of counted) {
     counts[item.index] += item.count;
   }
-  //console.warn(counts);
+
   return counts;
 };
 
