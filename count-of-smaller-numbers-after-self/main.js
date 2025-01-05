@@ -154,10 +154,51 @@ const s2 = function (nums) {
   return counts;
 };
 
+const s3 = (arr) => {
+  const nums = arr.map((num, index) => ({ num, index }));
+  nums.sort((a, b) => a.num - b.num);
+
+  const counts = Array(nums.length).fill(0);
+  for (const n of nums) {
+    const idx = binarySearch(nums, n);
+    for (let j = 0; j < idx; j++) {
+      if (nums[j].index > n.index) {
+        counts[n.index]++;
+      }
+    }
+  }
+  return counts;
+};
+
+// O
+const binarySearch = (arr, target) => {
+  if (arr.length === 0) {
+    return -1;
+  }
+
+  let left = 0;
+  let right = arr.length - 1;
+  while (left <= right) {
+    const mid = Math.floor((left + right) / 2);
+    if (target.num === arr[mid].num) {
+      return mid;
+    }
+    if (target.num > arr[mid].num) {
+      left = mid + 1;
+    }
+    if (target.num < arr[mid].num) {
+      right = mid - 1;
+    }
+  }
+  return -1;
+};
+
 module.exports = {
   s1,
   s2,
+  s3,
   mergeSort,
   countInversions,
   countSmallerInRightSide,
+  binarySearch,
 };
