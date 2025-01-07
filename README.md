@@ -37,4 +37,4 @@
 | 332           | Reconstruct Itinerary         | Medium | * | Tree,DFS ||
 | 295           |  [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | Hard | * | Count Sort ||
 | 297           |[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | Hard | * | Pre Order Travesal, Level Order Traversal | |
-| 315           | [Count of Smaller Numbers After Self | Hard | * | Divide and Conque, Merge Sort |](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) |
+| 315           | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)| Hard | * | Divide and Conque, Merge Sort | |
