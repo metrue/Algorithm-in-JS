@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/metrue/Algorithm-in-JS#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "prettier": "^3.4.2"
   }
 }
